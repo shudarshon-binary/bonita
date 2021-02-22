@@ -33,6 +33,16 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_RQqZ53TZEeuJF_icYNDYTA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_RQqZ5nTZEeuJF_icYNDYTA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
+        <elements xmi:type="process:ReceiveTask" xmi:id="_pLPjsHTZEeuJF_icYNDYTA" name="Step3">
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_pLTOEXTZEeuJF_icYNDYTA" name="" content="" returnTypeFixed="true"/>
+          <dynamicDescription xmi:type="expression:Expression" xmi:id="_pLTOEHTZEeuJF_icYNDYTA" name="" content="" returnTypeFixed="true"/>
+          <stepSummary xmi:type="expression:Expression" xmi:id="_pLTOEnTZEeuJF_icYNDYTA" name="" content="" returnTypeFixed="true"/>
+          <loopCondition xmi:type="expression:Expression" xmi:id="_pLTOE3TZEeuJF_icYNDYTA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+          <loopMaximum xmi:type="expression:Expression" xmi:id="_pLTOFHTZEeuJF_icYNDYTA" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+          <cardinalityExpression xmi:type="expression:Expression" xmi:id="_pLTOFXTZEeuJF_icYNDYTA" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+          <iteratorExpression xmi:type="expression:Expression" xmi:id="_pLTOF3TZEeuJF_icYNDYTA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+          <completionCondition xmi:type="expression:Expression" xmi:id="_pLTOFnTZEeuJF_icYNDYTA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        </elements>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_LQwF43TZEeuJF_icYNDYTA">
         <targetForm xmi:type="expression:Expression" xmi:id="_LQwF5HTZEeuJF_icYNDYTA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -97,6 +107,10 @@
             <children xmi:type="notation:Shape" xmi:id="_RQ2AEHTZEeuJF_icYNDYTA" type="3028" element="_RQmvgHTZEeuJF_icYNDYTA" fontName="Ubuntu" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_RQ2AEnTZEeuJF_icYNDYTA" type="5018"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RQ2AEXTZEeuJF_icYNDYTA" x="275" y="92"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_pLUcMHTZEeuJF_icYNDYTA" type="3026" element="_pLPjsHTZEeuJF_icYNDYTA" fontName="Ubuntu" fillColor="14334392" lineColor="10710316">
+              <children xmi:type="notation:DecorationNode" xmi:id="_pLUcMnTZEeuJF_icYNDYTA" type="5012"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pLUcMXTZEeuJF_icYNDYTA" x="479" y="58"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_LQwGEnTZEeuJF_icYNDYTA"/>
