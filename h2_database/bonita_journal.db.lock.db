@@ -1,7 +1,6 @@
 #FileLock
-#Tue Feb 23 12:23:41 MYT 2021
-server=127.0.1.1\:44243
-hostName=workstation
+#Tue Feb 23 14:29:46 MYT 2021
+server=192.168.19.85\:62973
+hostName=192.168.19.85
 method=file
-id=177ccd32c97362246b9fd968bab17fd59c8ee0cf9ac
-
+id=177cd94564409ad2c99c3fbfcb40e159bee2f7e21fd
