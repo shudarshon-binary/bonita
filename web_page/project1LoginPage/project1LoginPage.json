@@ -1,0 +1,172 @@
+{
+  "modelVersion" : "2.0",
+  "id" : "project1LoginPage",
+  "name" : "project1LoginPage",
+  "lastUpdate" : 1614049420470,
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "disabled" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "inline" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Default label"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "availableValues" : {
+            "type" : "constant",
+            "value" : [
+              "green",
+              "red",
+              "blue"
+            ]
+          },
+          "displayedKey" : {
+            "type" : "constant"
+          },
+          "returnedKey" : {
+            "type" : "constant"
+          },
+          "selectedValues" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "dda2f56a-42a8-49d4-9e3f-5e3dbb390973",
+        "hasValidationError" : false,
+        "id" : "pbChecklist"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Save draft"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "buttonStyle" : {
+            "type" : "constant",
+            "value" : "default"
+          },
+          "formInput" : {
+            "type" : "variable",
+            "value" : "formInput"
+          }
+        },
+        "reference" : "24729c51-fe27-4d4c-a185-8cc004ed8ca3",
+        "hasValidationError" : false,
+        "id" : "pbSaveButton"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Title"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 2"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "269f9d70-0312-4ead-8612-33accec60e52",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "2123691a-8250-4720-83f8-5b3b40b2f53b",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "d6a3f92f-e128-4c79-8fa2-b3efd6982bd7",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : { },
+  "hasValidationError" : false,
+  "uuid" : "1c4b6dc8-87f9-4e34-b37b-d8bc3137418a",
+  "type" : "page",
+  "description" : "Page generated with Bonita UI designer"
+}
