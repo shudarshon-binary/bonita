@@ -2,7 +2,7 @@
   "modelVersion" : "2.0",
   "id" : "project1LoginPage",
   "name" : "project1LoginPage",
-  "lastUpdate" : 1614052287797,
+  "lastUpdate" : 1614053454634,
   "rows" : [
     [
       {
@@ -116,8 +116,75 @@
         "dimension" : {
           "xs" : 12,
           "sm" : 12,
-          "md" : 12,
-          "lg" : 12
+          "md" : 6,
+          "lg" : 6
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Default name"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation"
+          },
+          "availableValues" : {
+            "type" : "constant",
+            "value" : [
+              "London",
+              "Paris",
+              "San Francisco"
+            ]
+          },
+          "displayedKey" : {
+            "type" : "constant"
+          },
+          "returnedKey" : {
+            "type" : "constant"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "3b4d4ef0-2d51-4ce4-87e8-4685b5b6ffd5",
+        "hasValidationError" : false,
+        "id" : "pbAutocomplete"
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 6,
+          "lg" : 6
         },
         "propertyValues" : {
           "cssClasses" : {
@@ -192,8 +259,75 @@
         "dimension" : {
           "xs" : 12,
           "sm" : 12,
-          "md" : 12,
-          "lg" : 12
+          "md" : 6,
+          "lg" : 6
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "disabled" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Default label"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "inline" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "availableValues" : {
+            "type" : "constant",
+            "value" : [
+              "yes",
+              "no"
+            ]
+          },
+          "displayedKey" : {
+            "type" : "constant"
+          },
+          "returnedKey" : {
+            "type" : "constant"
+          },
+          "selectedValue" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "38d05fd1-870b-45f8-b0ff-bff1fa9fe6ca",
+        "hasValidationError" : false,
+        "id" : "pbRadioButtons"
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 6,
+          "lg" : 6
         },
         "propertyValues" : {
           "cssClasses" : {
