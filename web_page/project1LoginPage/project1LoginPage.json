@@ -2,7 +2,7 @@
   "modelVersion" : "2.0",
   "id" : "project1LoginPage",
   "name" : "project1LoginPage",
-  "lastUpdate" : 1614049420470,
+  "lastUpdate" : 1614050978157,
   "rows" : [
     [
       {
@@ -144,6 +144,46 @@
         "reference" : "269f9d70-0312-4ead-8612-33accec60e52",
         "hasValidationError" : false,
         "id" : "pbTitle"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "disabled" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Default label"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "723c77fb-dbcb-47ac-88c1-84f37d5f04c1",
+        "hasValidationError" : false,
+        "id" : "pbCheckbox"
       }
     ]
   ],
