@@ -1,4 +1,5 @@
-*h2_database*
+*/*db*
+h2_database/
 bin
 .classpath
 /src-providedGroovy
