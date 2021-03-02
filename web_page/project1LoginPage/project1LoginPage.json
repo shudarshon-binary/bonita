@@ -2,7 +2,7 @@
   "modelVersion" : "2.0",
   "id" : "project1LoginPage",
   "name" : "project1LoginPage",
-  "lastUpdate" : 1614656560876,
+  "lastUpdate" : 1614656830474,
   "rows" : [
     [
       {
@@ -40,7 +40,7 @@
           },
           "labelPosition" : {
             "type" : "constant",
-            "value" : "top"
+            "value" : "left"
           },
           "labelWidth" : {
             "type" : "constant",
