@@ -48,6 +48,11 @@
           <contract xmi:type="process:Contract" xmi:id="_E1GegHsjEeuy7tOfeeE2Aw"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_E1Geg3sjEeuy7tOfeeE2Aw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
+        <elements xmi:type="process:InclusiveGateway" xmi:id="_G5BzMHslEeuy7tOfeeE2Aw" name="Gateway1">
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_G5FdkXslEeuy7tOfeeE2Aw" name="" content="" returnTypeFixed="true"/>
+          <dynamicDescription xmi:type="expression:Expression" xmi:id="_G5FdkHslEeuy7tOfeeE2Aw" name="" content="" returnTypeFixed="true"/>
+          <stepSummary xmi:type="expression:Expression" xmi:id="_G5GEoHslEeuy7tOfeeE2Aw" name="" content="" returnTypeFixed="true"/>
+        </elements>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_OVSYNHsfEeuy7tOfeeE2Aw">
         <targetForm xmi:type="expression:Expression" xmi:id="_OVSYNXsfEeuy7tOfeeE2Aw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -120,6 +125,12 @@
             <children xmi:type="notation:Shape" xmi:id="_E1ITsHsjEeuy7tOfeeE2Aw" type="3005" element="_E1EpUHsjEeuy7tOfeeE2Aw" fontName="Ubuntu" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_E1ITsnsjEeuy7tOfeeE2Aw" type="5005"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E1ITsXsjEeuy7tOfeeE2Aw" x="452" y="58"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_G5Ig4HslEeuy7tOfeeE2Aw" type="3051" element="_G5BzMHslEeuy7tOfeeE2Aw" fontName="Ubuntu">
+              <children xmi:type="notation:DecorationNode" xmi:id="_G5JH8HslEeuy7tOfeeE2Aw" type="5075">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_G5JH8XslEeuy7tOfeeE2Aw" y="5"/>
+              </children>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G5Ig4XslEeuy7tOfeeE2Aw" x="430" y="141"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_OVSYY3sfEeuy7tOfeeE2Aw"/>
