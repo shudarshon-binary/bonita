@@ -1,4 +1,6 @@
-*/*db*
+*db.lock.db
+*db.mv.db
+*db.trace.db
 bin
 .classpath
 /src-providedGroovy
