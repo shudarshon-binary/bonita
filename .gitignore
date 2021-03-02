@@ -1,5 +1,4 @@
 */*db*
-h2_database/
 bin
 .classpath
 /src-providedGroovy
