@@ -43,6 +43,16 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_ANPm0HzJEeuxuNcuHmF1HA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_ANPm0nzJEeuxuNcuHmF1HA" name="" content="" returnTypeFixed="true"/>
         </elements>
+        <elements xmi:type="process:ServiceTask" xmi:id="_KOi3MHzKEeuxuNcuHmF1HA" name="test change">
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_KOjeQXzKEeuxuNcuHmF1HA" name="" content="" returnTypeFixed="true"/>
+          <dynamicDescription xmi:type="expression:Expression" xmi:id="_KOjeQHzKEeuxuNcuHmF1HA" name="" content="" returnTypeFixed="true"/>
+          <stepSummary xmi:type="expression:Expression" xmi:id="_KOjeQnzKEeuxuNcuHmF1HA" name="" content="" returnTypeFixed="true"/>
+          <loopCondition xmi:type="expression:Expression" xmi:id="_KOjeQ3zKEeuxuNcuHmF1HA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+          <loopMaximum xmi:type="expression:Expression" xmi:id="_KOjeRHzKEeuxuNcuHmF1HA" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+          <cardinalityExpression xmi:type="expression:Expression" xmi:id="_KOjeRXzKEeuxuNcuHmF1HA" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+          <iteratorExpression xmi:type="expression:Expression" xmi:id="_KOjeR3zKEeuxuNcuHmF1HA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+          <completionCondition xmi:type="expression:Expression" xmi:id="_KOjeRnzKEeuxuNcuHmF1HA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        </elements>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_6rkHBHzIEeuxuNcuHmF1HA">
         <targetForm xmi:type="expression:Expression" xmi:id="_6rkHBXzIEeuxuNcuHmF1HA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -113,6 +123,10 @@
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_ANQ08XzJEeuxuNcuHmF1HA" y="5"/>
               </children>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ANQN4XzJEeuxuNcuHmF1HA" x="536" y="84"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_KOkFUHzKEeuxuNcuHmF1HA" type="3027" element="_KOi3MHzKEeuxuNcuHmF1HA" fontName="Ubuntu" fillColor="14334392" lineColor="10710316">
+              <children xmi:type="notation:DecorationNode" xmi:id="_KOksYHzKEeuxuNcuHmF1HA" type="5017"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KOkFUXzKEeuxuNcuHmF1HA" x="133" y="148"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_6rkHM3zIEeuxuNcuHmF1HA"/>
